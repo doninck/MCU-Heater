@@ -1,0 +1,1305 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18345 ]
+[d frameptr 6 ]
+"86 E:\Microchip\MCU_Heater\mcc_generated_files/adc.c
+[e E6648 . `uc
+P1V8_Detect 18
+P5V_Detect 19
+P3V3_Detect 21
+channel_AVSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR 63
+]
+"185 E:\Microchip\MCU_Heater\mcc_generated_files/i2c1.c
+[e E6644 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+]
+"187
+[e E6707 . `uc
+S_MASTER_IDLE 0
+S_MASTER_RESTART 1
+S_MASTER_SEND_ADDR 2
+S_MASTER_SEND_DATA 3
+S_MASTER_SEND_STOP 4
+S_MASTER_ACK_ADDR 5
+S_MASTER_RCV_DATA 6
+S_MASTER_RCV_STOP 7
+S_MASTER_ACK_RCV_DATA 8
+S_MASTER_NOACK_STOP 9
+S_MASTER_SEND_ADDR_10BIT_LSB 10
+S_MASTER_10BIT_RESTART 11
+]
+"119 E:\Microchip\MCU_Heater\main.c
+[e E6646 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+]
+"316
+[e E6742 . `uc
+P1V8_Detect 18
+P5V_Detect 19
+P3V3_Detect 21
+channel_AVSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR 63
+]
+"1 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"112 E:\Microchip\MCU_Heater\main.c
+[v _I2C1_RBlk I2C1_RBlk `(v  1 e 1 0 ]
+"158
+[v _I2C1_WBlk I2C1_WBlk `(v  1 e 1 0 ]
+"199
+[v _UART_Write_Buffer UART_Write_Buffer `(v  1 e 1 0 ]
+"206
+[v _Signal_BL_Requested Signal_BL_Requested `(v  1 e 1 0 ]
+"218
+[v _EraseResetVector EraseResetVector `(v  1 e 1 0 ]
+"233
+[v _init init `(v  1 e 1 0 ]
+"270
+[v _UartResponse_ReadCmd UartResponse_ReadCmd `(v  1 e 1 0 ]
+"433
+[v _UartResponse_WriteCmd UartResponse_WriteCmd `(v  1 e 1 0 ]
+"506
+[v _UartResponse_Err UartResponse_Err `(v  1 e 1 0 ]
+"516
+[v _Handler_Uart Handler_Uart `(v  1 e 1 0 ]
+"552
+[v _Handler_I2c Handler_I2c `(v  1 e 1 0 ]
+"696
+[v _main main `(v  1 e 1 0 ]
+"65 E:\Microchip\MCU_Heater\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"113
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"87 E:\Microchip\MCU_Heater\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"149
+[v _EUSART_Read_N EUSART_Read_N `(uc  1 e 1 0 ]
+"166
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"188
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"216
+[v _putch putch `(v  1 e 1 0 ]
+"221
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+"240
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+"264
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+"274
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"276
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"284
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"288
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"292
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"296
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"300
+[v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `(v  1 e 1 0 ]
+"304
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
+"198 E:\Microchip\MCU_Heater\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"235
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+"565
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+"583
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+"644
+[v _I2C1_WaitForLastPacketToComplete I2C1_WaitForLastPacketToComplete `T(v  1 e 1 0 ]
+"654
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+"708
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+"721
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+"742
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+"52 E:\Microchip\MCU_Heater\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 E:\Microchip\MCU_Heater\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"66
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"80
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"86
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 E:\Microchip\MCU_Heater\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"180
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"202
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 E:\Microchip\MCU_Heater\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 E:\Microchip\MCU_Heater\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM5_LoadDutyValue PWM5_LoadDutyValue `(v  1 e 1 0 ]
+"58 E:\Microchip\MCU_Heater\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+"74
+[v _PWM6_LoadDutyValue PWM6_LoadDutyValue `(v  1 e 1 0 ]
+"61 E:\Microchip\MCU_Heater\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"121
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"140
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"150
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"154
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"62 E:\Microchip\MCU_Heater\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[s S497 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"364 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f18345.h
+[u S502 . 1 `S497 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES502  1 e 1 @11 ]
+[s S1141 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"399
+[u S1148 . 1 `S1141 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES1148  1 e 1 @12 ]
+[s S1158 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"490
+[u S1167 . 1 `S1158 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1167  1 e 1 @14 ]
+[s S480 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"548
+[u S485 . 1 `S480 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES485  1 e 1 @16 ]
+[s S522 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"585
+[u S531 . 1 `S522 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES531  1 e 1 @17 ]
+"816
+[v _TMR0L TMR0L `VEuc  1 e 1 @21 ]
+"954
+[v _TMR0H TMR0H `VEuc  1 e 1 @22 ]
+"1108
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @23 ]
+[s S926 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1128
+[s S932 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S937 . 1 `S926 1 . 1 0 `S932 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES937  1 e 1 @23 ]
+"1173
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @24 ]
+"1439
+[v _TMR2 TMR2 `VEuc  1 e 1 @29 ]
+"1459
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+"1479
+[v _T2CON T2CON `VEuc  1 e 1 @31 ]
+[s S853 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1500
+[s S857 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S865 . 1 `S853 1 . 1 0 `S857 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES865  1 e 1 @31 ]
+"1550
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1595
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1634
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S467 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1709
+[u S472 . 1 `S467 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES472  1 e 1 @144 ]
+[s S248 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 BCL1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1746
+[u S257 . 1 `S248 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES257  1 e 1 @145 ]
+"1977
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2043
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"2063
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"2083
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S126 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :6:2 
+]
+"2109
+[s S130 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+[s S139 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S142 . 1 `S126 1 . 1 0 `S130 1 . 1 0 `S139 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES142  1 e 1 @157 ]
+"2169
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2241
+[v _ADACT ADACT `VEuc  1 e 1 @159 ]
+"2293
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2338
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2377
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2932
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2977
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3016
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3099
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"3153
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3214
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3284
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"3338
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S346 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3364
+[u S355 . 1 `S346 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES355  1 e 1 @413 ]
+"3518
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S324 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3544
+[u S333 . 1 `S324 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES333  1 e 1 @414 ]
+"3698
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"3944
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3994
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4033
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"4095
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4349
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4857
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"4979
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S652 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5012
+[s S658 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S663 . 1 `S652 1 . 1 0 `S658 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES663  1 e 1 @533 ]
+[s S678 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"5271
+[u S687 . 1 `S678 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES687  1 e 1 @534 ]
+"5371
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"6201
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6246
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6285
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6751
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6796
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6835
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"7213
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"7263
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"7302
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"8932
+[v _PWM5DCL PWM5DCL `VEuc  1 e 1 @1559 ]
+"8968
+[v _PWM5DCH PWM5DCH `VEuc  1 e 1 @1560 ]
+"9038
+[v _PWM5CON PWM5CON `VEuc  1 e 1 @1561 ]
+"9104
+[v _PWM6DCL PWM6DCL `VEuc  1 e 1 @1562 ]
+"9140
+[v _PWM6DCH PWM6DCH `VEuc  1 e 1 @1563 ]
+"9210
+[v _PWM6CON PWM6CON `VEuc  1 e 1 @1564 ]
+[s S192 . 1 `uc 1 P5TSEL 1 0 :2:0 
+`uc 1 P6TSEL 1 0 :2:2 
+]
+"9293
+[s S195 . 1 `uc 1 P5TSEL0 1 0 :1:0 
+`uc 1 P5TSEL1 1 0 :1:1 
+`uc 1 P6TSEL0 1 0 :1:2 
+`uc 1 P6TSEL1 1 0 :1:3 
+]
+[u S200 . 1 `S192 1 . 1 0 `S195 1 . 1 0 ]
+[v _PWMTMRSbits PWMTMRSbits `VES200  1 e 1 @1567 ]
+"10818
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2193 ]
+"11070
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2194 ]
+"11320
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2195 ]
+"11572
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @2196 ]
+"11788
+[v _NVMCON1 NVMCON1 `VEuc  1 e 1 @2197 ]
+[s S995 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"11817
+[s S1003 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CFGS 1 0 :1:6 
+]
+[u S1006 . 1 `S995 1 . 1 0 `S1003 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES1006  1 e 1 @2197 ]
+"11977
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2198 ]
+"12136
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"12181
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"12243
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"12283
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"12345
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"12379
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"12488
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12628
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12725
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12771
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12829
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"13727
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"13779
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"13883
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+"14431
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @3732 ]
+"14483
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @3733 ]
+"14691
+[v _RB7PPS RB7PPS `VEuc  1 e 1 @3743 ]
+"15055
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3750 ]
+"15107
+[v _RC7PPS RC7PPS `VEuc  1 e 1 @3751 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"87 E:\Microchip\MCU_Heater\main.c
+[v _Default_PWM_Table Default_PWM_Table `VE[11]c  1 e 11 0 ]
+[s S1072 Command 64 `uc 1 Command_type 1 0 `uc 1 Total_Length 1 1 `uc 1 Data_Type 1 2 `[61]uc 1 Value 61 3 ]
+"96
+[v _cmd cmd `S1072  1 e 64 0 ]
+"100
+[v _NVFlag NVFlag `DCuc  1 e 1 @8191 ]
+"101
+[v _flg_reset flg_reset `uc  1 s 1 flg_reset ]
+"102
+[v _PWM_Table_Temp1 PWM_Table_Temp1 `c  1 e 1 0 ]
+[v _PWM_Table_Temp2 PWM_Table_Temp2 `c  1 e 1 0 ]
+[v _PWM_Table_Temp3 PWM_Table_Temp3 `c  1 e 1 0 ]
+[v _PWM_Table_Temp4 PWM_Table_Temp4 `c  1 e 1 0 ]
+[v _PWM_Table_Temp5 PWM_Table_Temp5 `c  1 e 1 0 ]
+"103
+[v _PWM_1 PWM_1 `uc  1 e 1 0 ]
+[v _PWM_2 PWM_2 `uc  1 e 1 0 ]
+[v _PWM_3 PWM_3 `uc  1 e 1 0 ]
+[v _PWM_4 PWM_4 `uc  1 e 1 0 ]
+[v _PWM_5 PWM_5 `uc  1 e 1 0 ]
+[v _PWM_6 PWM_6 `uc  1 e 1 0 ]
+"104
+[v _CurrentPWM1 CurrentPWM1 `uc  1 e 1 0 ]
+"105
+[v _CurrentPWM2 CurrentPWM2 `uc  1 e 1 0 ]
+"106
+[v _Read_SI7020_Temp Read_SI7020_Temp `l  1 e 4 0 ]
+"109
+[v _Fan_PWM_Value Fan_PWM_Value `uc  1 e 1 0 ]
+"110
+[v _Temp_Heater1 Temp_Heater1 `c  1 e 1 0 ]
+[v _Temp_Heater2 Temp_Heater2 `c  1 e 1 0 ]
+"62 E:\Microchip\MCU_Heater\mcc_generated_files/eusart.c
+[v _eusartTxHead eusartTxHead `VEuc  1 e 1 0 ]
+"63
+[v _eusartTxTail eusartTxTail `VEuc  1 e 1 0 ]
+"64
+[v _eusartTxBuffer eusartTxBuffer `VE[64]uc  1 e 64 0 ]
+"65
+[v _eusartTxBufferRemaining eusartTxBufferRemaining `VEuc  1 e 1 0 ]
+"67
+[v _eusartRxHead eusartRxHead `VEuc  1 e 1 0 ]
+"68
+[v _eusartRxTail eusartRxTail `VEuc  1 e 1 0 ]
+"69
+[v _eusartRxBuffer eusartRxBuffer `VE[64]uc  1 e 64 0 ]
+[s S235 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"70
+[u S240 . 1 `S235 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxStatusBuffer eusartRxStatusBuffer `VE[64]S240  1 e 64 0 ]
+"71
+[v _eusartRxCount eusartRxCount `VEuc  1 e 1 0 ]
+"72
+[v _eusartRxLastError eusartRxLastError `VES240  1 e 1 0 ]
+"76
+[v _EUSART_TxDefaultInterruptHandler EUSART_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"77
+[v _EUSART_RxDefaultInterruptHandler EUSART_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"79
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"80
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"81
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+[s S582 . 5 `us 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"185 E:\Microchip\MCU_Heater\mcc_generated_files/i2c1.c
+[s S594 . 5 `uc 1 count 1 0 `*.39S582 1 ptrb_list 2 1 `*.39E6644 1 pTrFlag 2 3 ]
+[v _i2c1_tr_queue i2c1_tr_queue `[1]S594  1 s 5 i2c1_tr_queue ]
+"186
+[s S598 . 1 `uc 1 full 1 0 :1:0 
+`uc 1 empty 1 0 :1:1 
+`uc 1 reserved 1 0 :6:2 
+]
+[u S602 . 1 `S598 1 s 1 0 `uc 1 status 1 0 ]
+[s S605 . 5 `*.5S594 1 pTrTail 1 0 `*.5S594 1 pTrHead 1 1 `S602 1 trStatus 1 2 `uc 1 i2cDoneFlag 1 3 `uc 1 i2cErrors 1 4 ]
+[v _i2c1_object i2c1_object `S605  1 s 5 i2c1_object ]
+"187
+[v _i2c1_state i2c1_state `E6707  1 s 1 i2c1_state ]
+"188
+[v _i2c1_trb_count i2c1_trb_count `uc  1 s 1 i2c1_trb_count ]
+"190
+[v _p_i2c1_trb_current p_i2c1_trb_current `*.39S582  1 s 2 p_i2c1_trb_current ]
+"191
+[v _p_i2c1_current p_i2c1_current `*.5VES594  1 s 1 p_i2c1_current ]
+"59 E:\Microchip\MCU_Heater\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"696 E:\Microchip\MCU_Heater\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"711
+} 0
+"233
+[v _init init `(v  1 e 1 0 ]
+{
+"235
+[v init@Read_EEPROM Read_EEPROM `[32]uc  1 a 32 6 ]
+"236
+[v init@i i `us  1 a 2 38 ]
+"266
+} 0
+"50 E:\Microchip\MCU_Heater\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"80
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"62 E:\Microchip\MCU_Heater\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"61 E:\Microchip\MCU_Heater\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"150
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"152
+} 0
+"58 E:\Microchip\MCU_Heater\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"58 E:\Microchip\MCU_Heater\mcc_generated_files/pwm5.c
+[v _PWM5_Initialize PWM5_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"86 E:\Microchip\MCU_Heater\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"100
+} 0
+"55 E:\Microchip\MCU_Heater\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"121
+} 0
+"66 E:\Microchip\MCU_Heater\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"198 E:\Microchip\MCU_Heater\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"224
+} 0
+"87 E:\Microchip\MCU_Heater\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"129
+} 0
+"300
+[v _EUSART_SetTxInterruptHandler EUSART_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"302
+} 0
+"304
+[v _EUSART_SetRxInterruptHandler EUSART_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"306
+} 0
+"292
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"294
+} 0
+"288
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"290
+} 0
+"296
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"298
+} 0
+"65 E:\Microchip\MCU_Heater\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"516 E:\Microchip\MCU_Heater\main.c
+[v _Handler_Uart Handler_Uart `(v  1 e 1 0 ]
+{
+"518
+[v Handler_Uart@rcv_Buff rcv_Buff `[64]uc  1 a 64 0 ]
+"520
+[v Handler_Uart@i i `uc  1 a 1 65 ]
+"519
+[v Handler_Uart@rx_len rx_len `uc  1 a 1 64 ]
+"547
+} 0
+"433
+[v _UartResponse_WriteCmd UartResponse_WriteCmd `(v  1 e 1 0 ]
+{
+[v UartResponse_WriteCmd@type type `uc  1 a 1 wreg ]
+"435
+[v UartResponse_WriteCmd@sendBuff sendBuff `[4]uc  1 a 4 21 ]
+"437
+[v UartResponse_WriteCmd@data data `[2]uc  1 a 2 17 ]
+"436
+[v UartResponse_WriteCmd@i i `uc  1 a 1 19 ]
+"433
+[v UartResponse_WriteCmd@type type `uc  1 a 1 wreg ]
+[v UartResponse_WriteCmd@value value `uc  1 p 1 12 ]
+"435
+[v UartResponse_WriteCmd@type type `uc  1 a 1 20 ]
+"501
+} 0
+"206
+[v _Signal_BL_Requested Signal_BL_Requested `(v  1 e 1 0 ]
+{
+"216
+} 0
+"158
+[v _I2C1_WBlk I2C1_WBlk `(v  1 e 1 0 ]
+{
+[s S582 . 5 `us 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"164
+[v I2C1_WBlk@WriteTRB WriteTRB `[1]S582  1 a 5 16 ]
+"163
+[v I2C1_WBlk@status status `E6646  1 a 1 21 ]
+"165
+[v I2C1_WBlk@timeOut timeOut `uc  1 a 1 15 ]
+"159
+[v I2C1_WBlk@slaveDeviceAddress slaveDeviceAddress `us  1 p 2 8 ]
+"160
+[v I2C1_WBlk@pData pData `*.4uc  1 p 1 10 ]
+"161
+[v I2C1_WBlk@nCount nCount `us  1 p 2 11 ]
+"197
+} 0
+"218
+[v _EraseResetVector EraseResetVector `(v  1 e 1 0 ]
+{
+"228
+} 0
+"180 E:\Microchip\MCU_Heater\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"182
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"180
+[v DATAEE_WriteByte@bAdd bAdd `us  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"200
+} 0
+"270 E:\Microchip\MCU_Heater\main.c
+[v _UartResponse_ReadCmd UartResponse_ReadCmd `(v  1 e 1 0 ]
+{
+[v UartResponse_ReadCmd@type type `uc  1 a 1 wreg ]
+"272
+[v UartResponse_ReadCmd@sendBuff sendBuff `[16]uc  1 a 16 21 ]
+"276
+[v UartResponse_ReadCmd@ADC_result ADC_result `us  1 a 2 37 ]
+"273
+[v UartResponse_ReadCmd@i i `uc  1 a 1 20 ]
+"277
+[v UartResponse_ReadCmd@reg reg `[1]uc  1 a 1 19 ]
+"270
+[v UartResponse_ReadCmd@type type `uc  1 a 1 wreg ]
+"272
+[v UartResponse_ReadCmd@type type `uc  1 a 1 18 ]
+"428
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 11 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 3 ]
+"13
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1466 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1466  1 a 1 wreg ]
+"1371
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 1 ]
+"1368
+[v vfprintf@fp fp `*.1S1466  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 74 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 76 ]
+"1373
+"1368
+[v vfprintf@fp fp `*.1S1466  1 a 1 0 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S1466 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1466  1 a 1 wreg ]
+"674
+[v vfpfcnvrt@ll ll `o  1 a 8 65 ]
+"670
+[v vfpfcnvrt@fp fp `*.1S1466  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 58 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 59 ]
+"680
+"670
+[v vfpfcnvrt@fp fp `*.1S1466  1 a 1 73 ]
+"1365
+} 0
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+[s S1466 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S1466  1 a 1 wreg ]
+"277
+[v dtoa@n n `o  1 a 8 48 ]
+"276
+[v dtoa@i i `i  1 a 2 56 ]
+[v dtoa@s s `i  1 a 2 46 ]
+[v dtoa@w w `i  1 a 2 44 ]
+[v dtoa@p p `i  1 a 2 42 ]
+"274
+[v dtoa@fp fp `*.1S1466  1 a 1 wreg ]
+[v dtoa@d d `o  1 p 8 28 ]
+"280
+"274
+[v dtoa@fp fp `*.1S1466  1 a 1 41 ]
+"315
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+[s S1466 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1466  1 a 1 wreg ]
+"74
+[v pad@w w `i  1 a 2 25 ]
+[v pad@i i `i  1 a 2 23 ]
+"72
+[v pad@fp fp `*.1S1466  1 a 1 wreg ]
+[v pad@buf buf `*.6uc  1 p 1 19 ]
+[v pad@p p `i  1 p 2 20 ]
+"77
+"72
+[v pad@fp fp `*.1S1466  1 a 1 27 ]
+"95
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.6DCuc  1 a 1 wreg ]
+"14
+[v strlen@a a `*.6DCuc  1 a 1 3 ]
+"12
+[v strlen@s s `*.6DCuc  1 a 1 wreg ]
+"14
+[v strlen@s s `*.6DCuc  1 a 1 4 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.6DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 16 ]
+"10
+[v fputs@c c `uc  1 a 1 15 ]
+"8
+[v fputs@s s `*.6DCuc  1 a 1 wreg ]
+[s S1818 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputs@fp fp `*.1S1818  1 p 1 11 ]
+"13
+[v fputs@s s `*.6DCuc  1 a 1 18 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 3 ]
+[s S1818 _IO_FILE 5 `*.1uc 1 buffer 1 0 `i 1 count 2 1 `i 1 limit 2 3 ]
+[v fputc@fp fp `*.1S1818  1 p 1 5 ]
+"21
+} 0
+"216 E:\Microchip\MCU_Heater\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"218
+[v putch@txData txData `uc  1 a 1 2 ]
+"219
+} 0
+"1 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 19 ]
+"4
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 18 ]
+[v ___aomod@counter counter `uc  1 a 1 17 ]
+"7
+[v ___aomod@divisor divisor `o  1 p 8 0 ]
+[v ___aomod@dividend dividend `o  1 p 8 8 ]
+"36
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 19 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 18 ]
+[v ___aodiv@counter counter `uc  1 a 1 17 ]
+"7
+[v ___aodiv@divisor divisor `o  1 p 8 0 ]
+[v ___aodiv@dividend dividend `o  1 p 8 8 ]
+"43
+} 0
+"202 E:\Microchip\MCU_Heater\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `us  1 p 2 0 ]
+"212
+} 0
+"113 E:\Microchip\MCU_Heater\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E6648  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E6648  1 a 1 wreg ]
+"116
+[v ADC_GetConversion@channel channel `E6648  1 a 1 3 ]
+"134
+} 0
+"506 E:\Microchip\MCU_Heater\main.c
+[v _UartResponse_Err UartResponse_Err `(v  1 e 1 0 ]
+{
+"508
+[v UartResponse_Err@sendBuff sendBuff `uc  1 a 1 8 ]
+"511
+} 0
+"199
+[v _UART_Write_Buffer UART_Write_Buffer `(v  1 e 1 0 ]
+{
+[v UART_Write_Buffer@sendBuff sendBuff `*.4uc  1 a 1 wreg ]
+"201
+[v UART_Write_Buffer@i i `i  1 a 2 5 ]
+"199
+[v UART_Write_Buffer@sendBuff sendBuff `*.4uc  1 a 1 wreg ]
+[v UART_Write_Buffer@size size `uc  1 p 1 2 ]
+"202
+[v UART_Write_Buffer@sendBuff sendBuff `*.4uc  1 a 1 4 ]
+"204
+} 0
+"188 E:\Microchip\MCU_Heater\mcc_generated_files/eusart.c
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 1 ]
+"209
+} 0
+"149
+[v _EUSART_Read_N EUSART_Read_N `(uc  1 e 1 0 ]
+{
+[v EUSART_Read_N@rcv_Buff rcv_Buff `*.5uc  1 a 1 wreg ]
+"151
+[v EUSART_Read_N@readcnt readcnt `uc  1 a 1 2 ]
+"149
+[v EUSART_Read_N@rcv_Buff rcv_Buff `*.5uc  1 a 1 wreg ]
+"151
+[v EUSART_Read_N@rcv_Buff rcv_Buff `*.5uc  1 a 1 1 ]
+"165
+} 0
+"552 E:\Microchip\MCU_Heater\main.c
+[v _Handler_I2c Handler_I2c `(v  1 e 1 0 ]
+{
+"555
+[v Handler_I2c@ReadBuffer ReadBuffer `[2]uc  1 a 2 27 ]
+"554
+[v Handler_I2c@Reg Reg `[1]uc  1 a 1 26 ]
+"691
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 12 ]
+"7
+[v memset@k k `ui  1 a 2 10 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 13 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 12 ]
+[v ___awdiv@counter counter `uc  1 a 1 11 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 6 ]
+[v ___awdiv@dividend dividend `i  1 p 2 8 ]
+"41
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 11 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 10 ]
+[v ___aldiv@counter counter `uc  1 a 1 9 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"74 E:\Microchip\MCU_Heater\mcc_generated_files/pwm6.c
+[v _PWM6_LoadDutyValue PWM6_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM6_LoadDutyValue@dutyValue dutyValue `us  1 p 2 15 ]
+"81
+} 0
+"74 E:\Microchip\MCU_Heater\mcc_generated_files/pwm5.c
+[v _PWM5_LoadDutyValue PWM5_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM5_LoadDutyValue@dutyValue dutyValue `us  1 p 2 15 ]
+"81
+} 0
+"112 E:\Microchip\MCU_Heater\main.c
+[v _I2C1_RBlk I2C1_RBlk `(v  1 e 1 0 ]
+{
+"119
+[v I2C1_RBlk@status status `E6646  1 a 1 20 ]
+"122
+[v I2C1_RBlk@timeOut timeOut `uc  1 a 1 19 ]
+"113
+[v I2C1_RBlk@slaveDeviceAddress slaveDeviceAddress `us  1 p 2 8 ]
+"114
+[v I2C1_RBlk@wblk wblk `*.4uc  1 p 1 10 ]
+"115
+[v I2C1_RBlk@wCount wCount `us  1 p 2 11 ]
+"116
+[v I2C1_RBlk@pData pData `*.39uc  1 p 2 13 ]
+"117
+[v I2C1_RBlk@rCount rCount `us  1 p 2 15 ]
+[s S582 . 5 `us 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"120
+[v I2C1_RBlk@readTRB readTRB `[2]S582  1 s 10 readTRB ]
+"156
+} 0
+"721 E:\Microchip\MCU_Heater\mcc_generated_files/i2c1.c
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+{
+[s S582 . 5 `us 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"722
+[v I2C1_MasterWriteTRBBuild@ptrb ptrb `*.39S582  1 p 2 0 ]
+"723
+[v I2C1_MasterWriteTRBBuild@pdata pdata `*.4uc  1 p 1 2 ]
+"724
+[v I2C1_MasterWriteTRBBuild@length length `uc  1 p 1 3 ]
+"725
+[v I2C1_MasterWriteTRBBuild@address address `us  1 p 2 4 ]
+"730
+} 0
+"654
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+{
+"655
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[s S582 . 5 `us 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"656
+[v I2C1_MasterTRBInsert@ptrb_list ptrb_list `*.39S582  1 p 2 0 ]
+"657
+[v I2C1_MasterTRBInsert@pflag pflag `*.4E6644  1 p 1 2 ]
+"661
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 4 ]
+"706
+} 0
+"644
+[v _I2C1_WaitForLastPacketToComplete I2C1_WaitForLastPacketToComplete `T(v  1 e 1 0 ]
+{
+"652
+} 0
+"708
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+{
+[s S582 . 5 `us 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"709
+[v I2C1_MasterReadTRBBuild@ptrb ptrb `*.5S582  1 a 1 wreg ]
+[v I2C1_MasterReadTRBBuild@ptrb ptrb `*.5S582  1 a 1 wreg ]
+"710
+[v I2C1_MasterReadTRBBuild@pdata pdata `*.39uc  1 p 2 0 ]
+"711
+[v I2C1_MasterReadTRBBuild@length length `uc  1 p 1 2 ]
+"712
+[v I2C1_MasterReadTRBBuild@address address `us  1 p 2 3 ]
+"714
+"709
+[v I2C1_MasterReadTRBBuild@ptrb ptrb `*.5S582  1 a 1 7 ]
+"719
+} 0
+"52 E:\Microchip\MCU_Heater\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"86
+} 0
+"121 E:\Microchip\MCU_Heater\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"123
+[v TMR0_ISR@CountCallBack CountCallBack `VEus  1 s 2 CountCallBack ]
+"138
+} 0
+"140
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"148
+} 0
+"154
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"157
+} 0
+"235 E:\Microchip\MCU_Heater\mcc_generated_files/i2c1.c
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+{
+"238
+[v I2C1_ISR@pi2c_buf_ptr pi2c_buf_ptr `*.39uc  1 s 2 pi2c_buf_ptr ]
+"239
+[v I2C1_ISR@i2c_address i2c_address `us  1 s 2 i2c_address ]
+"240
+[v I2C1_ISR@i2c_bytes_left i2c_bytes_left `uc  1 s 1 i2c_bytes_left ]
+"241
+[v I2C1_ISR@i2c_10bit_address_restart i2c_10bit_address_restart `uc  1 s 1 i2c_10bit_address_restart ]
+"563
+} 0
+"583
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+{
+[v I2C1_Stop@completion_code completion_code `E6644  1 a 1 wreg ]
+[v I2C1_Stop@completion_code completion_code `E6644  1 a 1 wreg ]
+"586
+[v I2C1_Stop@completion_code completion_code `E6644  1 a 1 2 ]
+"598
+} 0
+"565
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+{
+"581
+} 0
+"742
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+{
+"746
+} 0
+"221 E:\Microchip\MCU_Heater\mcc_generated_files/eusart.c
+[v _EUSART_Transmit_ISR EUSART_Transmit_ISR `(v  1 e 1 0 ]
+{
+"238
+} 0
+"240
+[v _EUSART_Receive_ISR EUSART_Receive_ISR `(v  1 e 1 0 ]
+{
+"262
+} 0
+"276
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"282
+} 0
+"274
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"284
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"286
+} 0
+"264
+[v _EUSART_RxDataHandler EUSART_RxDataHandler `(v  1 e 1 0 ]
+{
+"272
+} 0
