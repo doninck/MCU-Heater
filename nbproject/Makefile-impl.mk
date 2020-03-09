@@ -27,7 +27,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 PROJECTNAME=MCU_Heater
 
 # Active Configuration
-DEFAULTCONF=StandAlone_App
+DEFAULTCONF=Combined_App
 CONF=${DEFAULTCONF}
 
 # All Configurations

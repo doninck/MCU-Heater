@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.05\pic\dat\en_msgs.txt \
   -cs -h+dist/Combined_App/production\MCU_Heater.production.sym \
   --cmf=dist/Combined_App/production\MCU_Heater.production.cmf -z \
-  -Q16F18345 -oC:\Users\User\AppData\Local\Temp\s2lk.2 \
+  -Q16F18345 -oC:\Users\User\AppData\Local\Temp\sf4g.2 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/Combined_App/production/MCU_Heater.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=022C0h-023EFh -pstack=STACK -p_NVFlag_text=1FFFh \
@@ -33,7 +33,7 @@ Linker command line:
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -AEEDATA=00h-0FFh/0F000h -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 \
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\User\AppData\Local\Temp\s2lk.o \
+  C:\Users\User\AppData\Local\Temp\sf4g.o \
   dist/Combined_App/production\MCU_Heater.production.o 
 
 Object code version is 3.11
@@ -43,7 +43,7 @@ Machine type is 16F18345
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\User\AppData\Local\Temp\s2lk.o
+C:\Users\User\AppData\Local\Temp\sf4g.o
                 end_init                            441      441        2      808       0
                 reset_vec                           400      400        2      800       0
                 config                             8007     8007        4    1000E       0

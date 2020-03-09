@@ -2065,8 +2065,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 379:             sendBuff[3] = 1;
 [e = *U + &U _sendBuff * -> -> -> 3 `i `ui `ux -> -> # *U &U _sendBuff `ui `ux -> -> 1 `i `uc ]
 "380
-[; ;main.c: 380:             sendBuff[4] = 2;
-[e = *U + &U _sendBuff * -> -> -> 4 `i `ui `ux -> -> # *U &U _sendBuff `ui `ux -> -> 2 `i `uc ]
+[; ;main.c: 380:             sendBuff[4] = 3;
+[e = *U + &U _sendBuff * -> -> -> 4 `i `ui `ux -> -> # *U &U _sendBuff `ui `ux -> -> 3 `i `uc ]
 "381
 [; ;main.c: 381:             break;
 [e $U 1010  ]
@@ -2299,8 +2299,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "459
 [; ;main.c: 459:         case 0x0A:
 [e :U 1036 ]
-"460
-[; ;main.c: 460:             Fan_PWM_Value = value;
+"464
+[; ;main.c: 464:             Fan_PWM_Value = value;
 [e = _Fan_PWM_Value _value ]
 "465
 [; ;main.c: 465:             data[0] = 0x40;

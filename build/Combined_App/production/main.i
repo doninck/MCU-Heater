@@ -11943,7 +11943,7 @@ void UartResponse_ReadCmd(uint8_t type)
             sendBuff[1] = 0x04;
             sendBuff[2] = cmd.Data_Type;
             sendBuff[3] = 1;
-            sendBuff[4] = 2;
+            sendBuff[4] = 3;
             break;
         case 0x0D:
             sendBuff[0] = 0x02;
@@ -12023,11 +12023,11 @@ void UartResponse_WriteCmd(uint8_t type, uint8_t value)
             sendBuff[3] = CurrentPWM2;
             break;
         case 0x0A:
+
+
+
+
             Fan_PWM_Value = value;
-
-
-
-
             data[0] = 0x40;
             data[1] = Fan_PWM_Value;
             I2C1_WBlk(0x5C, data, 2);
